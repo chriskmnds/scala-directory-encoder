@@ -6,8 +6,9 @@ import java.io.{FileWriter, BufferedWriter, File}
 
 object Main {
 
-  val path1 = "/foo/bar/directory"
-  val path2 = "/foo/bar/encoded"
+  val out = "/output"
+  val path1 = "/directory"
+  val path2 = out + "/encoded"
   val baseFolder = "PREFIX"
   val directory = new File(path1)
   var linuxCommands = ""
@@ -22,15 +23,15 @@ object Main {
 
     recurse(directory.listFiles.toList)
 
-    var w = new BufferedWriter(new FileWriter("/foo/bar/commands.sh"))
+    var w = new BufferedWriter(new FileWriter(out + "/commands.sh"))
     w.write(linuxCommands)
     w.close
 
-    w = new BufferedWriter(new FileWriter("/foo/bar/folder-maps.tsv"))
+    w = new BufferedWriter(new FileWriter(out + "/folder-maps.tsv"))
     w.write(tsvFolders)
     w.close
 
-    w = new BufferedWriter(new FileWriter("/foo/bar/file-maps.tsv"))
+    w = new BufferedWriter(new FileWriter(out + "/file-maps.tsv"))
     w.write(tsvFiles)
     w.close
 
