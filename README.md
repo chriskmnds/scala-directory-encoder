@@ -1,7 +1,7 @@
 Directory Encoder
 ----------------
 
-Simple Scala application that recursively traverses a directory/folder and produces the necessarry commands to copy the directory into an encoded equivalent. This takes care of both files and folders. A prefix is added to each file, also used as the base folder for the encoded files.
+Simple Scala/SBT script that recursively traverses a directory/folder and produces the necessarry commands to copy the directory into an encoded equivalent. This takes care of both files and folders. A prefix is added to each file, also used as the base folder for the encoded files.
 
 Having a directory:
 
