@@ -1,0 +1,63 @@
+[info] Running Main 
+[debug] Starting sandboxed run...
+[debug] Waiting for threads to exit or System.exit to be called.
+[debug]   Classpath:
+[debug] 	/Users/christos/Documents/github/dir-encoder/target/scala-2.10/classes
+[debug] 	/Users/christos/.sbt/boot/scala-2.10.2/lib/scala-library.jar
+[debug] Waiting for thread run-main to exit
+[error] (run-main) java.lang.NullPointerException
+java.lang.NullPointerException
+	at scala.collection.mutable.ArrayOps$ofRef$.length$extension(ArrayOps.scala:114)
+	at scala.collection.mutable.ArrayOps$ofRef.length(ArrayOps.scala:114)
+	at scala.collection.SeqLike$class.size(SeqLike.scala:106)
+	at scala.collection.mutable.ArrayOps$ofRef.size(ArrayOps.scala:108)
+	at scala.collection.mutable.Builder$class.sizeHint(Builder.scala:69)
+	at scala.collection.mutable.ListBuffer.sizeHint(ListBuffer.scala:45)
+	at scala.collection.TraversableLike$class.to(TraversableLike.scala:628)
+	at scala.collection.mutable.ArrayOps$ofRef.to(ArrayOps.scala:108)
+	at scala.collection.TraversableOnce$class.toList(TraversableOnce.scala:257)
+	at scala.collection.mutable.ArrayOps$ofRef.toList(ArrayOps.scala:108)
+	at Main$.main(Main.scala:24)
+	at Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sbt.Run.invokeMain(Run.scala:72)
+	at sbt.Run.run0(Run.scala:65)
+	at sbt.Run.sbt$Run$$execute$1(Run.scala:54)
+	at sbt.Run$$anonfun$run$1.apply$mcV$sp(Run.scala:58)
+	at sbt.TrapExit$.sbt$TrapExit$$executeMain$1(TrapExit.scala:33)
+	at sbt.TrapExit$$anon$1.run(TrapExit.scala:42)
+[debug] 	Thread run-main exited.
+[debug] Interrupting remaining threads (should be all daemons).
+[debug] Sandboxed run complete..
+java.lang.RuntimeException: Nonzero exit code: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1628)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1628)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1628)
+	at sbt.Defaults$.toError(Defaults.scala:34)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$36$$anonfun$apply$37.apply(Defaults.scala:647)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$36$$anonfun$apply$37.apply(Defaults.scala:645)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:42)
+	at sbt.std.Transform$$anon$4.work(System.scala:64)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18)
+	at sbt.Execute.work(Execute.scala:244)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:160)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+[error] (compile:run) Nonzero exit code: 1

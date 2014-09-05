@@ -1,0 +1,32 @@
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set(/Users/christos/Documents/code various/scala/renamer/src/main/scala/Main.scala)
+[debug] 	added: Set(/Users/christos/Documents/github/dir-encoder/src/main/scala/Main.scala)
+[debug] 	modified: Set()
+[debug] Removed products: Set()
+[debug] Modified external sources: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set(/Users/christos/Documents/code various/scala/renamer/src/main/scala/Main.scala, /Users/christos/Documents/github/dir-encoder/src/main/scala/Main.scala)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set(/Users/christos/Documents/code various/scala/renamer/src/main/scala/Main.scala, /Users/christos/Documents/github/dir-encoder/src/main/scala/Main.scala)
+[debug] Recompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources
+[info] Compiling 1 Scala source to /Users/christos/Documents/github/dir-encoder/target/scala-2.10/classes...
+[debug] Getting compiler-interface from component compiler for Scala 2.10.2
+[debug] Getting compiler-interface from component compiler for Scala 2.10.2
+[debug] Running cached compiler 6926e27, interfacing (CompilerInterface) with Scala compiler version 2.10.2
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-bootclasspath
+[debug] 	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar:/Users/christos/.sbt/boot/scala-2.10.2/lib/scala-library.jar
+[debug] 	-classpath
+[debug] 	/Users/christos/Documents/github/dir-encoder/target/scala-2.10/classes
+[debug] Scala compilation took 7.174467 s
+[debug] Invalidated by transitive public inheritance: Set(/Users/christos/Documents/code various/scala/renamer/src/main/scala/Main.scala, /Users/christos/Documents/github/dir-encoder/src/main/scala/Main.scala)
+[debug] Invalidated by direct dependency: Set()
+[debug] New invalidations:
+[debug] 	Set()
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] 	Set()
