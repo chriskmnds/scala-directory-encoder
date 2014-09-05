@@ -29,4 +29,4 @@ PREFIX/0001/0001/0002/
 PREFIX/0001/0001/0002/PREFIX.0001.0001.0002.0001.txt
 PREFIX/0001/0001/0002/PREFIX.0001.0001.0002.0002.txt
 ```
-Two TSV files are produced with the mappings from the old to the new directory structure ("file-maps.tsv" and "folder-maps.tsv"). All the necessary commands are written in a file "commands.sh". With a few minor mods the app can do the same for windows. 
+Two TSV files are produced with the mappings from the old to the new directory structure ("file-maps.tsv" and "folder-maps.tsv"). All the necessary commands are written in a file "commands.sh".
