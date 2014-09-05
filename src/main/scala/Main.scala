@@ -1,5 +1,5 @@
 /**
- * Created by Christos on 03/09/2014.
+ * Created by Christos Koumenides on 03/09/2014.
  */
 
 import java.io.{FileWriter, BufferedWriter, File}
@@ -8,7 +8,7 @@ object Main {
 
   val path1 = "/foo/bar/directory"
   val path2 = "/foo/bar/encoded"
-  val baseFolder = "MAGATH"
+  val baseFolder = "PREFIX"
   val directory = new File(path1)
 
   var linuxCommands = ""
