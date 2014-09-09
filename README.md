@@ -16,7 +16,7 @@ a/b/d/foo.txt
 a/b/d/bar.txt
 ```
 
-and a base "PREFIX", the endocing scheme produces:
+and a base "PREFIX", the encoding scheme produces:
 
 ```
 PREFIX/
